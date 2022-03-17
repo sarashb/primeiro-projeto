@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-      <TesteEvento/>
+      <SitesFavoritos/>
   </div>
 </template>
 
 <script>
-import TesteEvento from './components/TesteEvento'
+import SitesFavoritos from './components/SitesFavoritos'
 
 export default {
   name: 'App',
   components: {
-    TesteEvento
+    SitesFavoritos
   }
 }
 </script>
